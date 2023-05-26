@@ -15,7 +15,7 @@ const CardsProject = () => {
                     <p className="mb-3 font-sm text-rose-600">Date: {data.date}</p>
                     <p className="mb-3 font-normal text-gray-700">{data.desc}</p>
                     <p className="mb-3 font-normal text-xs w-fit text-white bg-green-500 rounded-md p-1">Tech: {data.tech}</p>
-                    <a href="#project" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    <a href={data.link} className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         <HiEye className="mr-2 flex items-center" />
                         See More
                     </a>

@@ -11,7 +11,8 @@ const dataProject = [
         "title" : "Well Being",
         "desc" : "Aplikasi kesehatan untuk pemenuhan gizi",
         "date" : "Apr 2023",
-        "tech" : "HTML, CSS, Bootstrap, Javascript."
+        "tech" : "HTML, CSS, Bootstrap, Javascript.",
+        "link" : "https://wellbeing-ivory.vercel.app/"
     },
     {
         "id" : 2,
@@ -19,7 +20,8 @@ const dataProject = [
         "title" : "Peminjaman Barang",
         "desc" : "Aplikasi untuk melakukan peminjaman barang.",
         "date" : "Feb 2022 - Jul 2022",
-        "tech" : "HTML, Bootstrap, PHP, Javascript."
+        "tech" : "HTML, Bootstrap, PHP, Javascript.",
+        "link" : "#"
     },
 ]
 
