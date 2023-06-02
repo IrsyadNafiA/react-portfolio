@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import  { useState } from "react"
 import { HiMenuAlt3, HiOutlineX } from "react-icons/hi";
 import { AiOutlineHome, AiOutlineUser, AiOutlineProject, AiOutlineMail} from 'react-icons/ai'
 import { Link } from "react-scroll"
@@ -17,7 +17,7 @@ const Navigation = () => {
     }
 
     return(
-        <div>
+        <div className="absolute z-50">
             <HiMenuAlt3 
             size={30}
             onClick={handleNav}
