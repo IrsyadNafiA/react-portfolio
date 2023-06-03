@@ -2,6 +2,7 @@ import  { useState } from "react"
 import { HiMenuAlt3, HiOutlineX } from "react-icons/hi";
 import { AiOutlineHome, AiOutlineUser, AiOutlineProject, AiOutlineMail} from 'react-icons/ai'
 import { Link } from "react-scroll"
+// import { Link } from "react-router-dom";
 
 const Navigation = () => {
 
