@@ -17,12 +17,15 @@ const Navigation = () => {
     }
 
     return(
-        <div className="absolute z-50">
+        <div className="absolute z-50 w-full">
+           <div className="w-full flex items-end justify-end">
+            
             <HiMenuAlt3 
-            size={30}
-            onClick={handleNav}
-            className="absolute top-7 right-4 z-[99] md:hidden"
-            />
+                size={30}
+                onClick={handleNav}
+                className=" md:hidden"
+                />
+           </div>
             {
                 nav ? (
                     <div className='fixed w-full h-screen bg-gray-900/90 flex flex-col justify-center items-center z-20'>
