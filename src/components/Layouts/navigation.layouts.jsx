@@ -86,7 +86,7 @@ const Navigation = () => {
             ) : (
                 ""
             )}
-            <nav className="md:block hidden bg-white w-full z- drop-shadow-md fixed" data-aos="fade-down" data-aos-anchor-placement="top-bottom">
+            <nav className="md:block hidden bg-white w-full drop-shadow-md fixed" data-aos="fade-down" data-aos-anchor-placement="top-bottom">
                 <div className="flex flex-wrap justify-between items-center mx-auto py-3 px-12">
                     <a href="/" className="p-4 font-bold text-2xl text-gray-900">IRSYAD<span className="text-blue-600">NAFI</span></a>
                     <div className="items-center justify-between" id="navbar-sticky">
