@@ -22,7 +22,7 @@ const About = () => {
                 A Junior Web Developer
               </h1>
               <p className="text-gray-500 mb-4">
-                Currently student at Batam State Polytechnic majoring in
+                Fresh graduates at Batam State Polytechnic majoring in
                 Informatics Engineering, skilled in Web Development like UI/UX
                 Design, Front-End Web Development, Back-End Web Development and
                 Project Management Experienced by engaging in Project Based
