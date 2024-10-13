@@ -8,7 +8,6 @@ const CardsProject = () => {
         <div
           key={i}
           className="block relative z-0 bg-white border max-w-[920px] mx-4 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
-          data-aos="zoom-in-up"
         >
           <img className="rounded-t-lg" src={data.img} alt="" />
           <div className="p-5">
