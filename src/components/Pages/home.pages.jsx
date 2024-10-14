@@ -65,7 +65,7 @@ const Home = () => {
           className="skills w-full mt-2 flex flex-col md:gap-4 items-center md:flex-row"
           data-aos="fade-up"
         >
-          <div className="flex items-center text-xl font-bold lg:border-r-2 border-gray-900 md:pr-4 whitespace-nowrap h-full">
+          <div className="flex items-center text-xl font-bold lg:border-r-2 border-gray-900 md:pr-4 whitespace-nowrap md:h-full">
             <span>Skills</span>
           </div>
 
