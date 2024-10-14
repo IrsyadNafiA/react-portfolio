@@ -36,7 +36,7 @@ const Navigation = () => {
         scrollPosition > 30
           ? "drop-shadow-md fixed bg-white/50 backdrop-blur-sm"
           : "absolute bg-white"
-      } md:fixed z-[9999] w-full`}
+      } z-[9999] w-full`}
     >
       <div
         className={`md:hidden inset-0 absolute h-screen bg-transparent ${
@@ -63,7 +63,7 @@ const Navigation = () => {
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.3 }}
-              className={`w-full absolute left-0 top-16 md:w-auto md:block md:static items-center justify-between`}
+              className={`w-full absolute left-0 top-20 md:w-auto md:block md:static items-center justify-between`}
               id="navbar-sticky"
             >
               <ul

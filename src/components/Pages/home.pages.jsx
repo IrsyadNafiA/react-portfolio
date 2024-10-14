@@ -9,9 +9,9 @@ const Home = () => {
   return (
     <div className="w-full h-screen bg-gray-100 flex justify-center" id="home">
       <div className="content w-[1024px] max-w-full flex flex-col justify-center items-center px-4">
-        <div className="hero-main w-full gap-2 lg:gap-12 md:gap-12 sm:gap-12 flex flex-col-reverse lg:flex-row">
-          <div className="hero-text w-full flex flex-col justify-center text-center lg:text-start gap-2">
-            <h1 className="text-3xl lg:text-6xl md:text-6xl font-bold text-gray-900">
+        <div className="hero-main w-full gap-2 md:gap-12 sm:gap-12 flex flex-col-reverse md:flex-row">
+          <div className="hero-text w-full flex flex-col justify-center text-center md:text-start gap-2">
+            <h1 className="text-3xl md:text-6xl font-bold text-gray-900">
               <TypeAnimation
                 sequence={[
                   "Web Developer🤞",
@@ -33,7 +33,7 @@ const Home = () => {
               Batam, Indonesia. 📍
             </p>
             <div
-              className="flex gap-4 justify-center lg:justify-start"
+              className="flex gap-4 justify-center md:justify-start"
               data-aos="fade-right"
             >
               <a
