@@ -1,5 +1,3 @@
-import React from "react";
-import Irsyad from "../Albums/Irsyad.jpg";
 import { FaMapMarkedAlt } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 

@@ -9,8 +9,8 @@ const Home = () => {
   return (
     <div className="w-full h-screen bg-gray-100 flex justify-center" id="home">
       <div className="content w-[1024px] max-w-full flex flex-col justify-center items-center px-4">
-        <div className="hero-main w-full gap-2 lg:gap-12 md:gap-12 sm:gap-12 flex flex-col-reverse lg:flex-row m-4">
-          <div className="hero-text text-center lg:text-start">
+        <div className="hero-main w-full gap-2 lg:gap-12 md:gap-12 sm:gap-12 flex flex-col-reverse lg:flex-row">
+          <div className="hero-text w-full flex flex-col justify-center text-center lg:text-start gap-2">
             <h1 className="text-3xl lg:text-6xl md:text-6xl font-bold text-gray-900">
               <TypeAnimation
                 sequence={[
@@ -28,11 +28,11 @@ const Home = () => {
                 style={{ fontSize: "1em" }}
               />
             </h1>
-            <p className="text-gray-500 my-8" data-aos="fade-right">
+            <p className="text-gray-500" data-aos="fade-right">
               Hi, I am Irsyad Nafi Alif Perdana. A passionate student based in
               Batam, Indonesia. 📍
             </p>
-            <span
+            <div
               className="flex gap-4 justify-center lg:justify-start"
               data-aos="fade-right"
             >
@@ -50,7 +50,7 @@ const Home = () => {
               >
                 <FaGithub size={32} />
               </a>
-            </span>
+            </div>
           </div>
           <div className="hero-img flex justify-center mt-20 lg:mt-0 md:mt-0 sm:mt-0 mb-2">
             <img
@@ -62,10 +62,10 @@ const Home = () => {
           </div>
         </div>
         <div
-          className="w-full skills flex flex-col md:gap-4 items-center md:flex-row mt-8"
+          className="skills w-full mt-2 flex flex-col md:gap-4 items-center md:flex-row"
           data-aos="fade-up"
         >
-          <div className="flex items-center text-xl font-bold lg:border-r-2 border-gray-900 md:pr-4 whitespace-nowrap">
+          <div className="flex items-center text-xl font-bold lg:border-r-2 border-gray-900 md:pr-4 whitespace-nowrap h-full">
             <span>Skills</span>
           </div>
 
